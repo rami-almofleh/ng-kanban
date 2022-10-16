@@ -1,0 +1,43 @@
+.a-list {
+  user-select: none;
+  min-width: 15rem !important;
+
+  .a-list--header {
+    border-bottom: 2px solid;
+
+    p {
+      letter-spacing: .05rem;
+    }
+  }
+
+  mat-chip {
+    min-height: 20px;
+  }
+
+  .a-list--body {
+
+    .user-circle {
+      height: 1.5rem;
+      width: 1.5rem;
+      border: 1px solid #747474;
+      border-radius: 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-left: -.3rem;
+
+      &.user-1 {
+        background-image: url(../assets/images/1.png);
+      }
+      &.user-2 {
+        background-image: url(../assets/images/2.png);
+      }
+      &.user-3 {
+        background-image: url(../assets/images/3.png);
+      }
+      &.user-4 {
+        background-image: url(../assets/images/4.png);
+      }
+    }
+  }
+}
